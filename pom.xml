@@ -29,10 +29,21 @@
 	  <artifactId>spring-security-taglibs</artifactId>
 	</dependency>	
 	-->
+	
+    <!-- thymeleaf템플릿 엔진 -->	
+    <!--  
+	<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+	-->
+	<!-- Thymeleaf 엔진 끝 -->
+
 	<!-- JSP 템플릿 엔진 -->
 	<dependency>
 	  <groupId>org.apache.tomcat.embed</groupId>
 	  <artifactId>tomcat-embed-jasper</artifactId>
+	  <scope>provided</scope>
 	</dependency>
 	
 	<!-- JSTL -->
@@ -70,11 +81,13 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
