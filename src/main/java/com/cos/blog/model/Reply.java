@@ -13,6 +13,7 @@ import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 
 import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -50,7 +51,8 @@ public class Reply {
 	@CreationTimestamp
 	private Timestamp createDate;
 	
-	private Timestamp updateDate;
+	@UpdateTimestamp
+	private Timestamp currentUpdateDate;
 }
 
 
