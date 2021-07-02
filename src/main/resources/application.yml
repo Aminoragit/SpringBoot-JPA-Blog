@@ -20,6 +20,7 @@ spring:
     password: cos1234
     
   jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     open-in-view: true
     hibernate:
       ddl-auto: update
