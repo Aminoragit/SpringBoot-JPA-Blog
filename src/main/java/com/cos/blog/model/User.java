@@ -39,7 +39,7 @@ public class User {
 	private int id; //시퀀스(오라클), auto_increament(mysql)
 
 	@Column(nullable=false, length = 30) //길이제한과 Notnull설정
-	private String userName; 
+	private String username; 
 	
 	@Column(nullable=false, length = 100) //왜이렇게 크게 했냐면 비밀번호를 해쉬로 변경해서 암호화할거고 암호화한걸 DB에 넣을것이므로 일부러 크게 한거임
 	private String password;
