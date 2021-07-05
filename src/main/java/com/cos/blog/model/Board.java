@@ -44,13 +44,13 @@ public class Board {
 	@Lob //대용량 데이터
 	private String content;
 
-	@ColumnDefault("0") //User.java의 String과 다르게 int라서 홑따옴표 필요없음
+	//@ColumnDefault("0") //User.java의 String과 다르게 int라서 홑따옴표 필요없음
+	
 	private int count; //조회수
 	
 	
 	//연관관계
 	@ManyToOne(fetch=FetchType.EAGER) //다(Board)대일(User) 관계 1명의 유저는 여러개의 게시글을 쓸수 있다
-	//여러개의 게시글은 1명에 의해서 쓰여질수 있다.
 	@JoinColumn(name="userId") //테이블 생성시 column명은 userId로 저장됨
 	//위의 연관관계를 설정하고 아래처럼 User로 타입을 써주면 자동으로 FK가 생성됨 
 	private User user; //DB는 오브젝트를 저장할수 없어서 FK를 쓰는데
