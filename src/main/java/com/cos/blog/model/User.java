@@ -8,6 +8,7 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.UniqueConstraint;
 
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
@@ -38,7 +39,7 @@ public class User {
 	//mysql이면 AI를 오라클이면 시퀸스를 해준다는 얘기 알아서 자동으로 결정해줌
 	private int id; //시퀀스(오라클), auto_increament(mysql)
 
-	@Column(nullable=false, length = 30) //길이제한과 Notnull설정
+	@Column(nullable=false, length = 30,unique=true) //길이제한과 Notnull설정
 	private String username; 
 	
 	@Column(nullable=false, length = 100) //왜이렇게 크게 했냐면 비밀번호를 해쉬로 변경해서 암호화할거고 암호화한걸 DB에 넣을것이므로 일부러 크게 한거임

@@ -74,4 +74,5 @@ public class Board {
 	@UpdateTimestamp
 	private Timestamp currentUpdateDate;
 
+		
 }
