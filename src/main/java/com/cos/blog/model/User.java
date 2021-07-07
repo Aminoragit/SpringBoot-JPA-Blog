@@ -57,6 +57,8 @@ public class User {
 	@CreationTimestamp //시간이 자동입력됨(insert될때 시간)
 	private Timestamp createDate;
 	
+	private String oauth; // google , kakao Auth기능구현
+	
 	@UpdateTimestamp
 	private Timestamp currentUpdateDate;
 
