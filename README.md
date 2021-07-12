@@ -42,10 +42,10 @@
 
 
 * 로그인 페이지  
- * ![ex_screenshot](./페이지 2.png)     
+ * ![ex_screenshot](./페이지2.png)     
 
  * 회원가입 페이지  
- *  * ![ex_screenshot](./페이지 3.png)    
+ *  * ![ex_screenshot](./페이지3_1.png)    
 
  * 게시글 무단 수정 방지  
   * ![ex_screenshot](./공격방지.png)    
