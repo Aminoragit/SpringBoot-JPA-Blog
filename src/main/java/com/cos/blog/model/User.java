@@ -39,7 +39,7 @@ public class User {
 	//mysql이면 AI를 오라클이면 시퀸스를 해준다는 얘기 알아서 자동으로 결정해줌
 	private int id; //시퀀스(오라클), auto_increament(mysql)
 
-	@Column(nullable=false, length = 30,unique=true) //길이제한과 Notnull설정
+	@Column(nullable=false, length = 100,unique=true) //길이제한과 Notnull설정
 	private String username; 
 	
 	@Column(nullable=false, length = 100) //왜이렇게 크게 했냐면 비밀번호를 해쉬로 변경해서 암호화할거고 암호화한걸 DB에 넣을것이므로 일부러 크게 한거임
@@ -57,7 +57,7 @@ public class User {
 	@CreationTimestamp //시간이 자동입력됨(insert될때 시간)
 	private Timestamp createDate;
 	
-	private String oauth; // google , kakao Auth기능구현
+	private String oauth; //kakao로 로그인(회원가입)한 사람들은 회원정보 수정을 못들어가게 하기위한 것
 	
 	@UpdateTimestamp
 	private Timestamp currentUpdateDate;

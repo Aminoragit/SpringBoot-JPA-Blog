@@ -34,3 +34,10 @@ spring:
   jackson:
     serialization:
       fail-on-empty-beans: false
+      
+      
+cos:
+  key: xwWxz#l5pee3sITqeONz
+
+  
+  

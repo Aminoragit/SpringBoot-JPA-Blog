@@ -13,10 +13,13 @@ import javax.persistence.JoinColumn;
 import javax.persistence.Lob;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
+import javax.persistence.OrderBy;
 
 import org.hibernate.annotations.ColumnDefault;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -65,7 +68,8 @@ public class Board {
 	//왜냐하면 DB에는 1정규화조건(원자성)을 위해 1개의 컬럼에는 1개의 data만 입력이 가능함
 	//이걸 해결하기 위한게 mappedBy이다
 	//mappedBy는? ==> 연관관계의 주인이 아니다,==난 FK가 아니니 DB에 컬럼을 만들지 마라
-	private List<Reply> reply; //Java.util의 리스트
+	@JsonIgnoreProperties({"board"})
+	private List<Reply> replys; //Java.util의 리스트
 	
 
 	@CreationTimestamp
