@@ -37,7 +37,7 @@
 
 <br/><br/>
 ### * 기본 페이지(index)  <br/><br/>
- ![ex_screenshot](./페이지1.png)    
+ ![ex_screenshot](./페이지1.png)   <br/> 
 
 
 <br/><br/>
@@ -46,7 +46,7 @@
 
 ### * 회원가입 페이지  <br/>
  ![ex_screenshot](./페이지3_1.png)<br/><br/>
- ### * 회원가입 
+ ### * 회원가입 완료(DB 연동) <br/>
  ![ex_screenshot](./페이지3.png)    
 
 <br/><br/><br/>
