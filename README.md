@@ -18,13 +18,13 @@
 	4. 무단 수정 방지 및 DB 자동 연동
 
 ### 1.2.3. OAuth 연동 
-  1. @Auth 어노테이션 대신 OAuth기능 직접 사용 
+  	1. @Auth 어노테이션 대신 OAuth기능 직접 사용 
 	2. DB 연동 및 보안 데이터 난수화
 	3. 구글 및 fireBase 기능 구현(예정) 
 
 
 ### 1.2.4. 기본 템플릿 구현 및 aJax 통신 연동 
-  1. BootStrap 4를 활용한 템플릿 구현
+ 	1. BootStrap 4를 활용한 템플릿 구현
 	2. static JS를 활용한 aJax 통신 구현(DB 연동)
 	3. JSTL문법 및 jQuery를 사용한 동적 디자인 구현
 
