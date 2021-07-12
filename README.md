@@ -27,3 +27,5 @@
 	3. JSTL문법 및 jQuery를 사용한 동적 디자인 구현
   
   
+
+![ex_screenshot](./img/RDBMS.png)
