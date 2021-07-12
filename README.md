@@ -30,21 +30,25 @@
   ### ● 홈페이지 구현 완료
 
   
- * DB 연동
-![ex_screenshot](./RDBMS.png)
+ * DB 연동    
+![ex_screenshot](./RDBMS.png)    
 
 
- * 기본 페이지(index)
- ![ex_screenshot](./페이지1.png)
 
- * 로그인 페이지
- * ![ex_screenshot](./페이지_2.png)
 
- * 회원가입 페이지
- *  * ![ex_screenshot](./페이지_3.png)
+* 기본 페이지(index)    
+ ![ex_screenshot](./페이지1.png)    
 
- * 게시글 무단 수정 방지
-  * ![ex_screenshot](./공격방지.png)
-  * ![ex_screenshot](./페이지3.png)
+
+
+* 로그인 페이지  
+ * ![ex_screenshot](./페이지 2.png)    
+
+ * 회원가입 페이지  
+ *  * ![ex_screenshot](./페이지 3.png)    
+
+ * 게시글 무단 수정 방지  
+  * ![ex_screenshot](./공격방지.png)    
+  * ![ex_screenshot](./페이지3.png)    
 
 
