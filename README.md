@@ -28,4 +28,4 @@
   
   
 
-![ex_screenshot](./img/RDBMS.png)
+![ex_screenshot](./RDBMS.png)
