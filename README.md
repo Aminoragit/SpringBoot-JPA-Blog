@@ -34,11 +34,6 @@
 ===
   ### ● 홈페이지 구현 이미지
 
-  <br/><br/>
-### * DB 연동    <br/><br/>
-![ex_screenshot](./RDBMS.png)    
-
-
 
 <br/><br/>
 ### * 기본 페이지(index)  <br/><br/>
@@ -55,6 +50,9 @@
  ![ex_screenshot](./페이지3.png)    
 
 <br/><br/><br/>
+
+### * DB 연동    <br/><br/>
+![ex_screenshot](./RDBMS.png)    <br/><br/><br/>
 ### * 게시글 무단 수정 방지  <br/>
    ![ex_screenshot](./공격방지.png)   <br/> 
 
