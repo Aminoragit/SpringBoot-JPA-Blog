@@ -42,7 +42,7 @@
 
 
 * 로그인 페이지  
- * ![ex_screenshot](./페이지 2.png)    
+ * ![ex_screenshot](./페이지 2.png)     
 
  * 회원가입 페이지  
  *  * ![ex_screenshot](./페이지 3.png)    
