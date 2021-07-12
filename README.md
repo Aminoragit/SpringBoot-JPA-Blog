@@ -45,9 +45,9 @@
   ![ex_screenshot](./페이지2.png) <br/>    
 
 ### * 회원가입 페이지  <br/>
- ![ex_screenshot](./페이지3_1.png)    <br/>
+ ![ex_screenshot](./페이지3_1.png)<br/><br/>
  ### * 회원가입 
-     ![ex_screenshot](./페이지3.png)    
+ ![ex_screenshot](./페이지3.png)    
 
 <br/><br/><br/>
 ### * 게시글 무단 수정 방지  <br/>
