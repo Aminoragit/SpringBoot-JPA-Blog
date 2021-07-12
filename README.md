@@ -30,26 +30,27 @@
   ### ● 홈페이지 구현 완료
 
   <br/><br/>
- * DB 연동    <br/><br/>
+### * DB 연동    <br/><br/>
 ![ex_screenshot](./RDBMS.png)    
 
 
 
 <br/><br/>
-* 기본 페이지(index)  <br/><br/>
+### * 기본 페이지(index)  <br/><br/>
  ![ex_screenshot](./페이지1.png)    
 
 
 <br/><br/>
-* 로그인 페이지  <br/><br/>
+### * 로그인 페이지  <br/><br/>
   ![ex_screenshot](./페이지2.png) <br/>    
 
- * 회원가입 페이지  <br/>
+### * 회원가입 페이지  <br/>
  ![ex_screenshot](./페이지3_1.png)    <br/>
+ ### * 회원가입 
      ![ex_screenshot](./페이지3.png)    
 
 <br/><br/><br/>
- * 게시글 무단 수정 방지  <br/>
+### * 게시글 무단 수정 방지  <br/>
    ![ex_screenshot](./공격방지.png)   <br/> 
 
 
