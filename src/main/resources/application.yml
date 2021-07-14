@@ -16,8 +16,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/blog?serverTimezone=Asia/Seoul
-    username: cos
-    password: cos1234
+    username: 비밀임
+    password: 비밀임
     
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
@@ -37,7 +37,7 @@ spring:
       
       
 cos:
-  key: xwWxz#l5pee3sITqeONz
+  key: 
 
   
   
